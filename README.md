@@ -1,5 +1,14 @@
 # Computer Vision Challenge: Ego-Trajectory & Bird’s-Eye View Mapping  
 
+## Solution results
+
+Run both solutions with `uv run perception-challenge` (no arguments). Reads `dataset/`, writes plots and videos to the project root, and keeps diagnostic data in `outputs/`. Requires ffmpeg on PATH.
+
+[Part A: trajectory video](trajectory.mp4) · [Part B: enhanced BEV video](enhanced_bev.mp4)
+
+![Estimated ego trajectory](trajectory.png)
+
+
 ---
 ## Problem Overview
 You are given a short **10-second video** recorded from an **ego-vehicle** (our Autonomous Car with a front-facing stereo camera). The scene includes:  

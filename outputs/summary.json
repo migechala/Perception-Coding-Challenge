@@ -1,0 +1,40 @@
+{
+  "track_spread": {
+    "1": {
+      "kind": "barrel",
+      "observations": 52,
+      "raw_spread_p95_m": 0.249629402885141
+    },
+    "2": {
+      "kind": "barrel",
+      "observations": 52,
+      "raw_spread_p95_m": 0.4091404637450344
+    },
+    "3": {
+      "kind": "barrel",
+      "observations": 52,
+      "raw_spread_p95_m": 0.2962032850367534
+    },
+    "4": {
+      "kind": "barrel",
+      "observations": 46,
+      "raw_spread_p95_m": 0.5797041807979526
+    },
+    "5": {
+      "kind": "golf_cart",
+      "observations": 52,
+      "raw_spread_p95_m": 0.6294914267904222
+    }
+  },
+  "anchor_frame": 72,
+  "fps_assumed": 30.0,
+  "y_sign": 1,
+  "accepted_measurements": 181,
+  "xyz_frames": 181,
+  "rgb_frames": 52,
+  "detections": {
+    "barrel": 202,
+    "golf_cart": 52
+  },
+  "assumption": "Constant heading; origin under light; first available valid frame defines X. Original frame zero unavailable."
+}
